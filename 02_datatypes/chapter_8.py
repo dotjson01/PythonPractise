@@ -15,3 +15,6 @@ chai_ingredients = ["water", "tea bag"]
 spice_option.extend(chai_ingredients);
 print(f"Extended {spice_option}");
 
+#insert something at some particular space
+spice_option.insert(2, "white powder");
+print(f"Inserted White powder into it : {spice_option}");
