@@ -14,3 +14,4 @@ print(f"Swapping the values: Ginger Ratio {ginger_ratio} Cadamon Ratio {cadamon_
 
 #membership checking 
 print(f"Is Ginger present in Spices ? {'Ginger' in masala_spices}");
+print(f"Is Cadamon present ? {'cadamon' in masala_spices}"); # true if Cadamon is there it will gonna show false because of case-sensitive
