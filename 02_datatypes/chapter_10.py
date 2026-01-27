@@ -22,3 +22,20 @@ chai_order = {"type" : "Masala", "size":"small", "price":"120"}
 print(f"New chai order {chai_order.keys()}")
 print(f"Chai Values {chai_order.values()}")
 print(f"Chai order in items {chai_order.items()}")
+
+chai_order.popitem()
+print(f"Poped up {chai_order}")
+
+extra_spice = {"cardmom" : "crushed", "clove" : "strong", "long" : "elachi"}
+chai_reciepe.update(extra_spice);
+print(f"Extra Spice added {chai_reciepe}");
+
+chai_size = chai_order["size"]
+print(f"Chai Size is {chai_size}")
+
+#instead of crashing the application , we are gonna use get 
+customer_note  = chai_order.get("note", 'No value')
+print(f"Customer note { customer_note }")
+
+customer_note = chai_order.get("size", 'No value')
+print(f"Customer note { customer_note }")
