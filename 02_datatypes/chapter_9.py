@@ -4,7 +4,7 @@
 
 essential_spice = {"cinnamon", "cardmon", "ginger", "water"} 
 optional_spice = {"cloves", "black pepper", "ginger", "water"} 
-all_spice = essential_spice | optional_spice # it will gonna find union ones
+all_spice = essential_spice | optional_spice # it will gonna find union ones [  |  ]-> this bascially calls pipe operator which find union
 print(f"All Spice {all_spice}")
 
 #let's find the common spice both coming in essential_spice and optional_spice
