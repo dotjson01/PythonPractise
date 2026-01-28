@@ -5,8 +5,15 @@
 # if it's cookies or samosa confirms the order 
 # else show unavailability 
 
-snacks = ['samosa', 'cookies']
-if 'ginger' in snacks:
-    print(f"Yes Available ")
 
-else :  print(f"Sorry unavailable Can try later ")
+# this is mannual way 
+#  snacks = ['samosa', 'cookies']
+#  if 'ginger' in snacks:
+#  print(f"Yes Available ")
+#  
+#  else :  print(f"Sorry unavailable Can try later ")
+
+
+snack = input("Enter your preferred choice : ").lower()
+if snack == "samosa" or snack== "cookies" : print(f"Great Choice Thanks for confirmation {snack}")
+else: print(f"Sorry item is not available ")
