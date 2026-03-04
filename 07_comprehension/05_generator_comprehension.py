@@ -13,4 +13,4 @@ print(total_cups)
 
 total_cups = sum( sale for sale in daily_sales if sale > 5 )
 print(total_cups)
-# the sum is giving one by one
+# the sum is giving one by one not like list -> through one by one
