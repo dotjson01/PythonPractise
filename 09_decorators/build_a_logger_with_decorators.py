@@ -1,5 +1,6 @@
 from functools import wraps
 
+
 def log_function_call(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -13,5 +14,6 @@ def log_function_call(func):
 @log_function_call
 def brew_chai(type):
     print(f"Brewing {type} Chai")
+
 
 brew_chai("Masala Chai")
