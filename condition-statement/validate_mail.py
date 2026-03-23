@@ -12,8 +12,6 @@ Must start and end with a letter or digit
 
 '''
 
-
-
 import re
 
 def validate_email(email):
