@@ -38,6 +38,7 @@ def validate_email(email):
     # [a-zA-Z0-9]$      -> Must end with a letter or digit (inherent in com/org/net)
     
     pattern = r"^[a-zA-Z0-9][^@]*@[^@]*\.(com|org|net)$"
+    # regrex pattern 
     
     if re.match(pattern, email, re.IGNORECASE):
         return True, "Valid Email"
