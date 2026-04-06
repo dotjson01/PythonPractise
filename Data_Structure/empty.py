@@ -15,3 +15,6 @@ print(mixed)
 empty2 = list()
 empty2 = list('Hello')
 print(empty2)
+
+numbers = list(range(5))
+print(numbers)
