@@ -13,3 +13,4 @@ name2, *details, country= list2
 
 
 print(*details) # includes the between all items
+print(country)
