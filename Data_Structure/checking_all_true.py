@@ -9,3 +9,4 @@ print('Checking True', all(['a', 'b', 'c']))
 print('Checking any', any([1, "2", ""]))
 
 print('Checking')
+print('Ma')
