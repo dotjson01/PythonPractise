@@ -3,3 +3,4 @@ list.remove(11)
 print(list)
 
 list.remove(22)
+print(list)
