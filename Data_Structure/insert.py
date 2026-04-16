@@ -22,3 +22,7 @@ print(matrix)
 #inserting number into particular index 
 matrix[1].append('x')
 print(matrix)
+
+# insert z at starting of row 1 
+matrix[1].insert(1,'z')
+print(matrix)
