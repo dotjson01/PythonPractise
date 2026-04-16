@@ -18,3 +18,7 @@ print(matrix)
 
 matrix.insert(4, ['m', 'n', 'o'])
 print(matrix)
+
+#inserting number into particular index 
+matrix[1].append('x')
+print(matrix)
