@@ -26,3 +26,11 @@ print(matrix)
 # insert z at starting of row 1 
 matrix[1].insert(1,'z')
 print(matrix)
+
+
+# remove e from the matrix
+matrix[1].remove('e')
+matrix[1].pop(0)
+# but why not pop
+print(matrix)
+print(matrix)
