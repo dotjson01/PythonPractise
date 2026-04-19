@@ -26,3 +26,5 @@ matrix = [
 
 matrix.sort()
 print(matrix)
+
+matrix[1].sort()
