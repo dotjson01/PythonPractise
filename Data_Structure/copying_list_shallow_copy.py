@@ -5,3 +5,8 @@ print(original_list) # this is the different memory pointing to
 print(cpy_list) # this is another memory pointing to
 
 # this is called shallow copy , which means does'nt effect to original ones
+
+
+# let's say we want to pop out from the original ones
+original_list.pop()
+print(original_list)
