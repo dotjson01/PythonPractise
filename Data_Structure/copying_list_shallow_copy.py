@@ -10,3 +10,4 @@ print(cpy_list) # this is another memory pointing to
 # let's say we want to pop out from the original ones
 original_list.pop()
 print(original_list)
+print()
