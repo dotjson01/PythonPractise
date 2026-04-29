@@ -13,3 +13,7 @@ print(list(map(str, numbers)))
 names = [' Marai', 'Lal ', ' Kumar ']
 print(list(map(str.strip, names))) 
 # this is used to remove unwanted space and clean the data
+# you can use iterator 
+
+for n in map(str.strip, names):
+    print(n)
