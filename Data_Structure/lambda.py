@@ -44,3 +44,4 @@ print(list(filter(lambda p: p[1] > 70, students)))
 # print(list(filter(lambda x: start="m", students)))
 print ( students[1][0].startswith('t') ) # false
 print ( students[2][0].startswith('M') ) # true
+print(list(filter(lambda row:row[0].startswith('M'), students)))
