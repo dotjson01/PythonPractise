@@ -12,3 +12,19 @@ print(user['id'])
 # in Operator -> Checks or tests if the key is inside the dictionary
 print('age' in user) # True
 print('name' in user) # False
+
+# View Objects
+print(user.keys())
+print(user.values())
+print(user.items())
+
+
+# for Looping 
+for key, value in user.items():
+    print(key, value)
+
+
+# add / remove / Update
+
+user.update({'age:' : 45, "city": "Lucknow"})
+print(user)
