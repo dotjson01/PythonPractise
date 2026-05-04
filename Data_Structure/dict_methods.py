@@ -28,3 +28,6 @@ for key, value in user.items():
 
 user.update({'age:' : 45, "city": "Lucknow"})
 print(user)
+
+user.popitem()
+print(user)
