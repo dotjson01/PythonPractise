@@ -29,5 +29,21 @@ for key, value in user.items():
 user.update({'age:' : 45, "city": "Lucknow"})
 print(user)
 
-user.popitem()
+user.popitem() # popitem -> return and deletes the most recent key value pair from the dictionary
 print(user)
+
+user1 = {
+    'name': None,
+    'id' : None,
+    'age' : None,
+    'city' :None
+}
+user1 = dict.fromkeys([
+    'id',
+    'name',
+    'age',
+    'city'
+], None ) # builds a new dictionary where all keys get the same default value
+print(user1)
+user1['age'] = 40 
+print(user1)
