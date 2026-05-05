@@ -18,3 +18,9 @@ print(my_list)
 
 # but if try to use with key , it will gonna show the values
 print(my_list['b'])
+
+# dict is keyed
+
+my_list['c'] = 80
+print(my_list) # set is mutuable
+
