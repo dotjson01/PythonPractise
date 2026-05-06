@@ -14,7 +14,7 @@ user_str = {
     # Loop
     # Filter
 
-    k:v.upper() # Expression
+    k.lower():v.upper() # Expression
     for k, v in user.items() # Loop
     if isinstance(v,str) # Filter
 }
