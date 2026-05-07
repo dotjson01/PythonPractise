@@ -6,3 +6,11 @@ def greet(name):
     print("Hello " + name, 'Welcome to Community How can I help you')
 
 call = greet('Raju')
+
+
+def clean_name():
+    name = " MaMria"
+    print(name.strip().lower())
+    print(name.strip().upper())
+
+clean_name()
