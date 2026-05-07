@@ -14,3 +14,4 @@ def clean_name():
     print(name.strip().upper())
 
 clean_name()
+
