@@ -15,3 +15,4 @@ def clean_name():
 
 clean_name()
 clean_name()
+clean_name()
