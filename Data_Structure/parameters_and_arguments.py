@@ -25,3 +25,23 @@ def clean_name(name):
 
 clean_name(" MariA ")
 clean_name("KUMAR")
+
+
+case_rule = "n/a" #global variable
+def clean_name(name):
+    cleaned = name.strip()
+    if case_rule == "lower":
+        cleaner = cleaned.lower()
+        print(cleaner)
+clean_name("RAHUL")
+
+
+
+# Building FULL Clean Name
+def clean_name(first_name, last_name):
+    first = first_name.strip().lower()
+    second = last_name.strip().lower()
+    full_name = first + " " + second
+    print(full_name)
+
+clean_name("MARIA", "KUMARI")
