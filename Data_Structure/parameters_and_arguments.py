@@ -44,4 +44,8 @@ def clean_name(first_name, last_name):
     full_name = first + " " + second
     print(full_name)
 
-clean_name("MARIA", "KUMARI")
+clean_name("MARIA", "KUMARI") # this is called positional arguments which means mapping the values to above function with [ first_name, last_name ]
+# Here is Risky to do this thing
+clean_name("KUMARI", "MARIA")
+
+clean_name(last_name="KU",first_name="MARIGOLD")
