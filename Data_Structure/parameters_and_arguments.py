@@ -20,7 +20,8 @@ clean_name()
 
 def clean_name(name):
     cleaned = name.strip().lower()
-    print(cleaned)
+    print("RAW DATA:", name)
+    print("Cleaned DATA:", cleaned)
 
 clean_name(" MariA ")
 clean_name("KUMAR")
