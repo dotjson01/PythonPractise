@@ -48,3 +48,13 @@ cls2 = clean_name2("")
 print(cls2)
 # currently i am not passing any kind of arguments here
 # so that's why above return returning None 
+
+
+
+def clean_name(name):
+    lo_cleaned = name.strip().lower()
+    up_cleaned = name.strip().upper()
+    return lo_cleaned, up_cleaned
+
+cls = clean_name("rAhuL paliWAL")
+print(cls)
