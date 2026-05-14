@@ -7,6 +7,10 @@ z= 6
 print(z)
 
 
+
+
+
+
 def clean_name(name):
     cleaned = name.strip().lower()
     return cleaned
@@ -14,7 +18,20 @@ def clean_name(name):
 print(clean_name) # it will gonna treat functions as object 
 print(clean_name("Mar")) # it will gonna pass as argument which means following all parameters
 
-
-
 cls=clean_name("Maria") #passing argument and storing the values into cls variable
+print(cls)
+
+
+
+
+
+def clean_name1(name):
+    cleaned = name.strip().lower()
+    # return cleaned
+    'why returning [None] because we are not returning anything from the function as return disapperead from the function which carry whatever function do inside it '
+
+print(clean_name1) # it will gonna treat functions as object 
+print(clean_name1("Mar")) # it will gonna pass as argument which means following all parameters
+
+cls=clean_name1("Maria") #passing argument and storing the values into cls variable
 print(cls)
