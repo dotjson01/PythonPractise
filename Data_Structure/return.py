@@ -58,3 +58,4 @@ def clean_name(name):
 
 cls = clean_name("rAhuL paliWAL")
 print(cls)
+print(cls)
