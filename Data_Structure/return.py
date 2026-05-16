@@ -59,3 +59,6 @@ def clean_name(name):
 lower,upper = clean_name("rAhuL paliWAL")
 print(lower)
 print(upper)
+cls = clean_name("rAhuL paliWAL")
+print(cls)
+print(cls)
