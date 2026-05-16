@@ -56,6 +56,9 @@ def clean_name(name):
     up_cleaned = name.strip().upper()
     return lo_cleaned, up_cleaned
 
+lower,upper = clean_name("rAhuL paliWAL")
+print(lower)
+print(upper)
 cls = clean_name("rAhuL paliWAL")
 print(cls)
 print(cls)
