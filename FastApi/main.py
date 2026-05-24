@@ -11,6 +11,6 @@ def hello():
 @app.get('/about')
 def about():
     return {
-        'message'  : "Hello"
+        'message'  : "about page"
     }
 
