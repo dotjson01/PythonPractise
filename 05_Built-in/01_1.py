@@ -13,6 +13,7 @@ print(chai_flavor.__name__)
 
 name = "Hello"
 number = 1
+num
 
 print(type(name))
 print(type(number))
